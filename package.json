@@ -1,0 +1,52 @@
+{
+  "name": "psychokinesis",
+  "version": "1.0.0",
+  "description": "Postgres-Koa stack",
+  "main": "start.js",
+  "dependencies": {
+    "babel-core": "^6.2.1",
+    "bluebird": "^3.0.5",
+    "chalk": "^1.1.1",
+    "co": "^4.6.0",
+    "gulp": "^3.9.0",
+    "gulp-env": "^0.2.0",
+    "gulp-util": "^3.0.7",
+    "joi": "^7.0.0",
+    "koa": "^1.1.2",
+    "koa-bodyparser": "^2.0.1",
+    "koa-compose": "^2.3.0",
+    "koa-logger": "^1.3.0",
+    "koa-passport": "^1.2.0",
+    "koa-router": "^5.2.3",
+    "koa-session": "^3.3.1",
+    "lodash": "^3.10.1",
+    "passport-facebook": "^2.0.0",
+    "passport-google-auth": "^1.0.0",
+    "passport-local": "^1.0.0",
+    "pg": "^4.4.3",
+    "sequelize": "^3.14.1",
+    "superagent": "^1.4.0"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "gulp-mocha": "^2.2.0",
+    "uuid4": "^1.0.0"
+  },
+  "scripts": {
+    "test": "gulp test",
+    "start": "node start.js"
+  },
+  "keywords": [
+    "koa",
+    "postgres",
+    "postgresql",
+    "stack",
+    "koajs"
+  ],
+  "author": "Grant Forrest",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/a-type/psychokinesis.git"
+  },
+  "license": "MIT"
+}
